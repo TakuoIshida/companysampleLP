@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+}
+
+.msg {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    color: whitesmoke;
+    font-size: 18px;
+    user-select: none;
+}
+.bgimg {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
